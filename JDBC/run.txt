@@ -1,0 +1,5 @@
+To compile code:
+javac -d . -cp "/Users/pratikkadlak/Downloads/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0.jar" file_name.java
+
+To run code:
+java -cp ".:/Users/pratikkadlak/Downloads/mysql-connector-j-9.1.0/mysql-connector-j-9.1.0.jar" package_name.file_name

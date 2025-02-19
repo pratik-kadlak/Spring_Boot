@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Injecting Primitive Types-->
+
+    <!--Method1: Value As Tag-->
+    <bean class="org.primitive.Student" name="stud0">
+        <property name="studentId">
+            <value>213</value>
+        </property>
+        <property name="studentName">
+            <value>Pratik</value>
+        </property>
+        <property name="studentAddress">
+            <value>Mumbai</value>
+        </property>
+    </bean>
+
+    <!--Method2: Value As Property-->
+    <bean class="org.primitive.Student" name="stud1">
+        <property name="studentId" value="123" />
+        <property name="studentName" value="Arun" />
+        <property name="studentAddress" value="Bangalore" />
+    </bean>
+
+    <!--Method3: Using p Schema-->
+    <bean class="org.primitive.Student" name="stud2" p:studentId="321" p:studentName="Neel" p:studentAddress="Kalol"/>
+
+    <!--Injecting Collection Types-->
+
+    <!--1. List-->
+    <bean>
+        <property name="list">
+            <list>
+                <value>10</value>
+                <value>20</value>
+                <value>30</value>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.collections.Student" name="stud0">
+        <property name="name" value="Pratik" />
+
+        <property name="courses">
+            <list>
+                <value>PRML</value>
+                <value>LARP</value>
+                <value>DL</value>
+                <null/> <!-- to add null values we use this tag-->
+            </list>
+        </property>
+
+        <property name="contactNos">
+            <set>
+                <value>12345</value>
+                <value>23456</value>
+                <value>12345</value>
+            </set>
+        </property>
+
+        <property name="grades">
+            <map>
+                <entry key="PRML" value="C"/>
+                <entry key="LARP" value="B"/>
+                <entry key="DL" value="A"/>
+            </map>
+        </property>
+
+        <property name="dbProperties">
+            <props>
+                <prop key="url">jdbc:mysql://localhost:3306/mydb</prop>
+                <prop key="username">root</prop>
+                <prop key="password">root</prop>
+                <prop key="driver">com.mysql.cj.jdbc.Driver</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>

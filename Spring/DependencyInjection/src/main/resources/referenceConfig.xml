@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="org.reference.ClassB" name="bRef">
+        <property name="bVar" value="Class B Variable"/>
+    </bean>
+
+    <bean class="org.reference.ClassA" name="aRef">
+        <property name="aVar" value="Class A Variable"/>
+
+        <!--Long Way Of Writing-->
+<!--        <property name="B">-->
+<!--            <ref bean="bRef"/>-->
+<!--        </property>-->
+
+        <!--Short Way Of Writing-->
+        <property name="B" ref="bRef"/>
+    </bean>
+
+<!--    Using P Schema-->
+<!--    <bean class="org.reference.ClassA" name="aRef" p:aVar="Class A Variable" p:B-ref="bRef"/>-->
+
+</beans>

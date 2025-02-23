@@ -10,6 +10,13 @@ public class Main {
         Student stud0 = (Student) context.getBean("stud0");
 
         System.out.println(stud0);
+
+        // ambiguity problem
+
+        // by def first (String, String) constructor will be called
+        // but if it is not there then the first constructor in order will be called
+        Addition ad = (Addition) context.getBean("add");
+        ad.doSum();
     }
 
 }

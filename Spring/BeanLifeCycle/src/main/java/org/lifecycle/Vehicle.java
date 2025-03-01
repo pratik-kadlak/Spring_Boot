@@ -5,10 +5,12 @@ public class Vehicle {
     private int price;
 
     public void setModel(String model){
+        System.out.println("setting model...");
         this.model = model;
     }
 
     public void setPrice(int price){
+        System.out.println("setting price...");
         this.price = price;
     }
 

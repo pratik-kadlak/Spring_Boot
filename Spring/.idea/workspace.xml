@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22c5d5aa-c598-4621-90d6-3516d0d42c00" name="Changes" comment="" />
+    <list default="true" id="22c5d5aa-c598-4621-90d6-3516d0d42c00" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/DependencyInjection/src/main/java/org/primitive/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/src/main/java/org/primitive/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjection/src/main/resources/primitivesConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/src/main/resources/primitivesConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependencyInjection/src/main/resources/referenceConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DependencyInjection/src/main/resources/referenceConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concepts.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/concepts.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2syL8VvCcRR400V7AD5IxAAgUmD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,6 +27,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/pratikkadlak/Pratik/TechStack/Spring_Boot/Spring"
   }

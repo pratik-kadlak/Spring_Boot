@@ -16,7 +16,5 @@ public class Main {
         Student stud2 = (Student) context.getBean("stud2");
         System.out.println(stud2);
 
-
-
     }
 }

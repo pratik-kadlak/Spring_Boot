@@ -7,6 +7,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
+    <!-- first the bean def of class which is not dependent come -->
     <bean class="org.reference.ClassB" name="bRef">
         <property name="bVar" value="Class B Variable"/>
     </bean>

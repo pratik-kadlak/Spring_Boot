@@ -34,15 +34,15 @@
     <!--Injecting Collection Types-->
 
     <!--1. List-->
-    <bean>
-        <property name="list">
-            <list>
-                <value>10</value>
-                <value>20</value>
-                <value>30</value>
-            </list>
-        </property>
-    </bean>
+<!--    <bean>-->
+<!--        <property name="list">-->
+<!--            <list>-->
+<!--                <value>10</value>-->
+<!--                <value>20</value>-->
+<!--                <value>30</value>-->
+<!--            </list>-->
+<!--        </property>-->
+<!--    </bean>-->
 
 
 </beans>

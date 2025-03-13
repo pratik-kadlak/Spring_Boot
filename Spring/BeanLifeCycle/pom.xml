@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>DependencyInjection</artifactId>
+    <artifactId>BeanLifeCycle</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,12 +15,6 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>6.1.5</version>
-        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
         <dependency>
@@ -28,6 +22,13 @@
             <artifactId>spring-context</artifactId>
             <version>6.1.5</version>
         </dependency>
+
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
     </dependencies>
 
 

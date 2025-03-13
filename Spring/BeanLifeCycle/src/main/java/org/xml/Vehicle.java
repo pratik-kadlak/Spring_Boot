@@ -1,4 +1,4 @@
-package org.lifecycle;
+package org.xml;
 
 public class Vehicle {
     private String model;

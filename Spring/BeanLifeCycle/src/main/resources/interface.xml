@@ -5,9 +5,9 @@
        xsi:schemaLocation="
        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean class="org.lifecycle.Vehicle" name="veh1" init-method="init" destroy-method="destroy">
-        <property name="model" value="bmw"/>
-        <property name="price" value="200000"/>
+    <bean class="org.interface_.Vehicle" name="veh2">
+        <property name="model" value="mustang"/>
+        <property name="price" value="120000"/>
     </bean>
 
 </beans>
